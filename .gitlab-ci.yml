@@ -1,0 +1,16 @@
+# @format
+
+stages:
+  - setup
+
+master-setup:
+  stage: setup
+  only:
+    - master
+  tags:
+    - tags-chinapwa
+  script:
+    - cd /home/wwwroot/pwa
+    - git pull
+    - npm install
+    - npm run build-pwa
