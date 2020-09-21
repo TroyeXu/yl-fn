@@ -17,3 +17,9 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+
+
+
+# mjs打包目錄
+/src

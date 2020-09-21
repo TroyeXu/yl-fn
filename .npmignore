@@ -1,1 +1,22 @@
 src/
+node_modules
+package-lock.json
+
+
+
+# 測試文件目錄
+test
+
+# 忽視文件
+.gitignore
+.npmignore
+
+# babel配置文件
+.babelrc.json
+
+# eslint配置文件
+.eslintrc.js
+
+# webpack配置文件
+webpack.config.js
+
