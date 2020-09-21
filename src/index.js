@@ -47,4 +47,7 @@ const removeAllLocalStorage = () => {
   }
 }
 
-module.exports = { setLocalStorage, getLocalStorage, removeLocalStorage, removeAllLocalStorage }
+const log = () => {
+  console.log("hii")
+}
+module.exports = { setLocalStorage, getLocalStorage, removeLocalStorage, removeAllLocalStorage, log }
