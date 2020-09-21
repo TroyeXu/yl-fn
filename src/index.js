@@ -1,11 +1,13 @@
 /**
  * 存儲localStorage
+ *
+ * @format
  */
 
 const setLocalStorage = function (name, content) {
-  name = 'forfuns_' + name
+  name = "forfuns_" + name
   if (!name) return
-  if (typeof content !== 'string') {
+  if (typeof content !== "string") {
     content = JSON.stringify(content)
   }
   window.localStorage.setItem(name, content)
@@ -15,7 +17,7 @@ const setLocalStorage = function (name, content) {
  * 獲取localStorage
  */
 const getLocalStorage = (name) => {
-  name = 'forfuns_' + name
+  name = "forfuns_" + name
   if (!name) return
   let originVal = window.localStorage.getItem(name)
   try {
@@ -30,15 +32,15 @@ const getLocalStorage = (name) => {
  * 刪除localStorage
  */
 const removeLocalStorage = (name) => {
-  name = 'forfuns_' + name
+  name = "forfuns_" + name
   if (!name) return
   window.localStorage.removeItem(name)
 }
 
 const removeAllLocalStorage = () => {
-  let name = 'forfuns'
+  let name = "forfuns"
   for (var key in localStorage) {
-    if (key.indexOf('lang') != -1) return
+    if (key.indexOf("lang") != -1) return
     if (key.indexOf(name) != -1) {
       window.localStorage.removeItem(key)
     }

@@ -1,19 +1,32 @@
 {
-  "name": "@taiwan-yl/yl-fn",
+  "name": "@troyexu/yl-fn",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rm -rf dist/ && rollup -c",
     "test": "jest"
   },
-  "author": "",
+  "author": "node",
+  "files": [
+    "dist"
+  ],
   "license": "ISC",
   "devDependencies": {
     "dev": "rollup -c -w",
     "build": "rm -rf dist/ && rollup -c",
     "rollup": "^2.27.1",
     "rollup-plugin-terser": "^7.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tw.yahoo.com/"
+  },
+  "homepage": "https://tw.yahoo.com/",
+  "bugs": {},
+  "keywords": [
+    "npm",
+    "node"
+  ]
 }
