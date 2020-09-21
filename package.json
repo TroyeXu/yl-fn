@@ -1,12 +1,14 @@
 {
   "name": "@troyexu/yl-fn",
-  "version": "1.5.0",
+  "version": "0.0.0",
   "description": "",
   "main": "dist/index.min.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rm -rf dist/ && rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "semantic-release": "semantic-release"
   },
   "author": "node",
   "files": [
