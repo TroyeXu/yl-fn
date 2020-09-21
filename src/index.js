@@ -46,8 +46,8 @@ const removeAllLocalStorage = () => {
     }
   }
 }
-
-const log = () => {
-  console.log("hii")
+export const sleep = function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
 }
-module.exports = { setLocalStorage, getLocalStorage, removeLocalStorage, removeAllLocalStorage, log }
+
+module.exports = { setLocalStorage, getLocalStorage, removeLocalStorage, removeAllLocalStorage, sleep }
