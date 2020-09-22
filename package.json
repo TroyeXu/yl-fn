@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rm -rf dist/ && rollup -c",
-    "test": "jest",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "sr": "semantic-release",
     "lint": "eslint --fix src"
