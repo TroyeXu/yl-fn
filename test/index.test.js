@@ -9,3 +9,7 @@
 test("two plus two is four", () => {
   expect(2 + 2).toBe(4)
 })
+
+test("two plus two is four2", () => {
+  expect(2 + 4).toBe(6)
+})
