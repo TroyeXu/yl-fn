@@ -6,7 +6,9 @@ node_js:
 
 jobs:
   include:
-    # Define the release stage that runs semantic-release
+    - stage: Produce Coverage
+      node_js: node
+      script: npm run coveralls
     - stage: release
       node_js: lts/*
       script: npm run build
