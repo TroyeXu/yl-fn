@@ -1,6 +1,6 @@
 {
   "name": "@troyexu/yl-fn",
-  "version": "1.0.0-development",
+  "version": "2.0.0-development",
   "description": "",
   "main": "dist/index.min.js",
   "scripts": {
