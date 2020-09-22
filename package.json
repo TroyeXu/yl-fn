@@ -1,6 +1,6 @@
 {
   "name": "@troyexu/yl-fn",
-  "version": "0.0.0-development",
+  "version": "1.0.0-development",
   "description": "",
   "main": "dist/index.min.js",
   "scripts": {
@@ -26,18 +26,15 @@
     "semantic-release-cli": "^5.4.0",
     "semantic-release": "^17.1.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TroyeXu/yl-fn"
-  },
-  "homepage": "https://github.com/TroyeXu/yl-fn",
   "bugs": {},
   "keywords": [
     "npm",
     "node"
   ],
   "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TroyeXu/yl-fn"
+  },
+  "homepage": "https://github.com/TroyeXu/yl-fn"
 }
