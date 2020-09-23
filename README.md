@@ -35,8 +35,3 @@ test
 ]
 ]
 }
-
-    "semantic-release": "semantic-release",
-
-@{{OWNER}}:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:\_authToken={{ecb9588e4edb5fe62362d4141f55743160ba3cc4}}
