@@ -8,3 +8,4 @@
 12312312444
 666666
 "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+test
