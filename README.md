@@ -9,3 +9,29 @@
 666666
 "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
 test
+
+{
+"plugins": [
+"@semantic-release/commit-analyzer",
+"@semantic-release/release-notes-generator",
+[
+"@semantic-release/npm",
+{
+"npmPublish": false
+}
+],
+[
+"@semantic-release/changelog",
+{
+"changelogFile": "docs/CHANGELOG.md",
+"changelogTitle": "This is Title"
+}
+],
+[
+"@semantic-release/git",
+{
+"assets": ["CHANGELOG.md", "package.json", "package-lock.json", "extension.zip"]
+}
+]
+]
+}
