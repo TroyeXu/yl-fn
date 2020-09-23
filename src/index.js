@@ -49,8 +49,5 @@ const removeAllLocalStorage = () => {
 export const sleep = function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
-export const sleep2 = function sleep2(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms))
-}
 
-module.exports = { setLocalStorage, getLocalStorage, removeLocalStorage, removeAllLocalStorage, sleep, sleep2 }
+module.exports = { setLocalStorage, getLocalStorage, removeLocalStorage, removeAllLocalStorage, sleep }

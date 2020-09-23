@@ -1,6 +1,6 @@
 {
   "name": "@troyexu/yl-fn",
-  "version": "1.2.0",
+  "version": "1.0.0-development",
   "description": "",
   "main": "dist/index.min.js",
   "scripts": {
@@ -21,7 +21,6 @@
     "@semantic-release/git": "^9.0.0",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "coveralls": "^3.1.0",
     "eslint-plugin-vue": "^6.2.2",
     "istanbul": "^0.4.5",
     "jest": "^26.4.2",

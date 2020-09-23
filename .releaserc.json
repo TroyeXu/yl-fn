@@ -18,7 +18,7 @@
     [
       "@semantic-release/git",
       {
-        "assets": ["CHANGELOG.md", "package.json", "package-lock.json", "extension.zip"]
+        "assets": ["docs/CHANGELOG.md"]
       }
     ]
   ]
