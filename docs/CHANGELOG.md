@@ -1,5 +1,12 @@
 This is Title
 
+## [1.3.1](https://github.com/TroyeXu/yl-fn/compare/v1.3.0...v1.3.1) (2020-09-23)
+
+
+### Bug Fixes
+
+* md ([ca36475](https://github.com/TroyeXu/yl-fn/commit/ca364759429d4c63ece2a7de152a7145ab46a95c))
+
 # [1.3.0](https://github.com/TroyeXu/yl-fn/compare/v1.2.0...v1.3.0) (2020-09-23)
 
 
