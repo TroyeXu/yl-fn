@@ -1,5 +1,7 @@
 /** @format */
 
-{
-  presets: ["es2015"]
-}
+// /** @format */
+
+// {
+//   presets: ["es2015"]
+// }
