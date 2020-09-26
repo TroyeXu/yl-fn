@@ -15,3 +15,8 @@ jobs:
         skip_cleanup: true
         script:
           - npx semantic-release
+          - npm publish
+      deploy:
+        provider: npm
+        email: "zooka8548@gmail.com"
+        api_key: "92d48112-cfea-489f-97b2-08d9075f666c"
